@@ -105,17 +105,7 @@ export const proyectos = [
     codigo: "https://github.com/Lautaro-R-collins/ProyectoFinal-Rodriguez.git",
     categoria: "fullstack",
   },
-  {
-    titulo: "Tienda Artesana",
-    descripcion:
-      "Ecommerce Full-Stack para ver, comprar y vender tus productos, con login para usuarios y vendedores.",
-    imagen:
-      "https://i.pinimg.com/736x/c9/70/bf/c970bfbc24489e39418b2c1b1f8f74ef.jpg",
-    tecnologias: ["React", "Node", "Express", "MongoDB"],
-    demo: "https://c21-05-ft-node-react-mirror-frontend-64qbwssi2-muyvisual.vercel.app/",
-    codigo: "https://github.com/No-Country-simulation/c21-05-ft-node-react",
-    categoria: "fullstack",
-  },
+
   {
     titulo: "Traker Ingresos-Gastos",
     descripcion:
@@ -242,6 +232,17 @@ export const proyectos = [
     demo: "https://planify-1tu6.onrender.com/",
     codigo: "https://github.com/Lautaro-R-collins/PlaniFy-organization-app",
     categoria: "frontend",
+  },
+    {
+    titulo: "Tienda Artesana",
+    descripcion:
+      "Ecommerce Full-Stack para ver, comprar y vender tus productos, con login para usuarios y vendedores.",
+    imagen:
+      "https://i.pinimg.com/736x/c9/70/bf/c970bfbc24489e39418b2c1b1f8f74ef.jpg",
+    tecnologias: ["React", "Node", "Express", "MongoDB"],
+    demo: "https://c21-05-ft-node-react-mirror-frontend-64qbwssi2-muyvisual.vercel.app/",
+    codigo: "https://github.com/No-Country-simulation/c21-05-ft-node-react",
+    categoria: "fullstack",
   },
   {
     titulo: "Verbenas Paisajes",
