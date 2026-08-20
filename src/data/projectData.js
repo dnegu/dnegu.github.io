@@ -12,6 +12,7 @@ import CvBuilder from "../assets/img-projects/CvBuilder.png";
 import ChatAi from "../assets/img-projects/ChatAI.png";
 import ProductivityApp from "../assets/img-projects/productivityApp.png";
 import AutomotoresFront from "../assets/img-projects/automotoresFront.jpg";
+import TrackerSubscription from "../assets/img-projects/img-substracker.png";
 
 export const proyectos = [
   {
@@ -54,6 +55,16 @@ export const proyectos = [
     codigo:
       "https://github.com/Lautaro-R-collins/Multi-Model-AI-Chat-Platform.git",
     categoria: "fullstack",
+  },
+  {
+    titulo: "Tracker Subscription",
+    descripcion:
+      "Aplicación de seguimiento de suscripciones para gestionar y controlar tus suscripciones mensuales.",
+    imagen: TrackerSubscription.src,
+    tecnologias: ["React", "tailwind" ],
+    demo: "https://subscriptions-tracker-chi.vercel.app",
+    codigo: "https://github.com/Lautaro-R-collins/Subscriptions-Tracker.git",
+    categoria: "frontend"
   },
   {
     titulo: "Automotores Frontend",
