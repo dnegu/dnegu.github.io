@@ -1,64 +1,41 @@
-# 🌌 Personal Portfolio – Lautaro 
+# 🌌 Portafolio Profesional – David Neyra
+
+> **Senior Android Engineer & Mobile Technical Lead**  
+> Especialista en Kotlin Multiplatform (KMP), Compose Multiplatform, Clean Architecture y aplicaciones móviles de alta concurrencia.
 
 ---
 
 ## 🚀 Características principales
 
-- ⚡️ Construido con **Astro** y **React** 
-- 🎨 **Diseño responsive**
-- 🧠 **Filtrado dinámico de proyectos**
-- 💬 Secciones personalizables: *Sobre mí*, *Proyectos*, *Experiencia*, *Contacto*  
+- ⚡️ Construido con **Astro**, **React** y **TailwindCSS**
+- 📱 **Diseño 100% responsivo**, moderno y accesible
+- 🧠 **Filtrado interactivo de proyectos** (Mobile, KMP, Arquitectura, DevOps & Backend)
+- 💼 Secciones estructuradas: *Sobre Mí*, *Experiencia*, *Proyectos*, *Preguntas Frecuentes* y *Contacto*
 
 ---
 
-## 🧩 Tecnologías utilizadas
+## 🧩 Tecnologías del Portafolio
 
-- [Astro](https://astro.build/)  
-- [TailwindCSS](https://tailwindcss.com/)  
-- [TypeScript / JavaScript]  
-- [React (en componentes selectivos)]  
-- [Vite](https://vitejs.dev/)  
+- [Astro](https://astro.build/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [React](https://react.dev/)
+- [TypeScript / JavaScript]
+- [Vite](https://vitejs.dev/)
+
+---
+
+## 🧞 Comandos
+
+| Comando | Acción |
+| :--- | :--- |
+| `npm run dev` | Inicia el servidor de desarrollo local en `http://localhost:4321` |
+| `npm run build` | Compila el sitio estático de producción en `./dist/` |
+| `npm run preview` | Previsualiza localmente el build de producción |
 
 ---
 
-## 📂 Estructura del proyecto
+## 📬 Contacto
 
-
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-│ └── images/ # Recursos estáticos
-├── src/
-│ ├── components/ # Componentes reutilizables
-│ ├── layouts/ # Layout base
-│ ├── pages/ # Páginas principales (index, proyectos, etc.)
-│ ├── scripts/ # JS para interactividad (filtro, animaciones)
-│ ├── styles/ # CSS global o módulos
-│ └── data/ # Datos (proyectos, experiencia)
-└── astro.config.mjs
-```
-
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
----
-![Portfolio](https://github.com/user-attachments/assets/8c01d06f-2d36-46c1-a3ff-a6f7bf73ab67)
-
-
+- **Email:** [dneyragu@gmail.com](mailto:dneyragu@gmail.com)
+- **LinkedIn:** [linkedin.com/in/david-neyra-gutierrez/](https://www.linkedin.com/in/david-neyra-gutierrez/)
+- **GitHub:** [github.com/dnegu](https://github.com/dnegu)

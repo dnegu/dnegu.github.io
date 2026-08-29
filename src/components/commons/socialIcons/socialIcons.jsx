@@ -1,51 +1,38 @@
 import {
-  FaXTwitter,
   FaLinkedinIn,
   FaGithub,
-  FaInstagram,
+  FaEnvelope,
 } from "react-icons/fa6";
 
 const SocialIcons = () => {
   return (
-    <div className="my-5 flex items-center justify-center">
+    <div className="my-5 flex items-center justify-center gap-4">
       <a
-        href="https://www.linkedin.com/in/lautaro-rodr%C3%ADguez-collins-40505624a/"
+        href="https://www.linkedin.com/in/david-neyra-gutierrez/"
         target="_blank"
         rel="noopener noreferrer"
-        className="mr-3 text-zinc-400 hover:text-[#69c7c7] drop-shadow-[1px_1px_0_#7836cf]"
-        aria-label="Linkedin"
+        className="text-zinc-400 hover:text-[#02ffee] transition-all hover:scale-110 drop-shadow-[1px_1px_0_#7836cf]"
+        aria-label="LinkedIn"
       >
-        <FaLinkedinIn className="h-7 w-7" />
+        <FaLinkedinIn className="h-6 w-6" />
       </a>
 
       <a
-        href="https://github.com/Lautaro-R-collins"
+        href="https://github.com/dnegu"
         target="_blank"
         rel="noopener noreferrer"
-        className="mx-3 text-zinc-400 hover:text-[#69c7c7] drop-shadow-[1px_1px_0_#7836cf]"
-        aria-label="Github"
+        className="text-zinc-400 hover:text-[#02ffee] transition-all hover:scale-110 drop-shadow-[1px_1px_0_#7836cf]"
+        aria-label="GitHub"
       >
-        <FaGithub className="h-7 w-7" />
+        <FaGithub className="h-6 w-6" />
       </a>
 
       <a
-        href="https://x.com/lautarodevelops/"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="mx-3 text-zinc-400 hover:text-[#69c7c7] drop-shadow-[1px_1px_0_#7836cf]"
-        aria-label="Twitter"
+        href="mailto:dneyragu@gmail.com"
+        className="text-zinc-400 hover:text-[#02ffee] transition-all hover:scale-110 drop-shadow-[1px_1px_0_#7836cf]"
+        aria-label="Email"
       >
-        <FaXTwitter className="h-7 w-7" />
-      </a>
-
-      <a
-        href="https://www.instagram.com/lautarodevelops/"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="mx-3 text-zinc-400 hover:text-[#69c7c7] drop-shadow-[1px_1px_0_#7836cf]"
-        aria-label="Instagram"
-      >
-        <FaInstagram className="h-7 w-7" />
+        <FaEnvelope className="h-6 w-6" />
       </a>
     </div>
   );

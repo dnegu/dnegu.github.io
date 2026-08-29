@@ -1,35 +1,35 @@
 ---
 const technologies = [
-  "astro",
-  "react",
-  "typeScript",
-  "tailwindcss",
-  "nodejs",
-  "HTML5",
-  "CSS3",
-  "javaScript",
-  "git",
-  "supabase",
-  "mysql",
-  "bash",
+  { name: "Kotlin", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" },
+  { name: "Android", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg" },
+  { name: "Jetpack Compose", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jetpackcompose/jetpackcompose-original.svg" },
+  { name: "Java", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" },
+  { name: "Swift", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" },
+  { name: "C#", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" },
+  { name: ".NET Core", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" },
+  { name: "SQLite", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" },
+  { name: "Git", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
+  { name: "Bitbucket", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bitbucket/bitbucket-original.svg" },
+  { name: "Firebase", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" },
+  { name: "Gradle", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gradle/gradle-original.svg" },
 ];
 ---
 
-<div class="relative overflow-x-hidden px-8 py-8">
+<div class="relative overflow-x-hidden px-8 py-8 bg-gray-950/40 border-y border-white/5">
   <div class="animate-scroll hover:animate-paused flex w-max gap-12 md:gap-20">
     {
       technologies.concat(technologies, technologies).map((tech) => (
-        <div class="group flex items-center gap-2 transition-all duration-300">
+        <div class="group flex items-center gap-3 transition-all duration-300">
           <img
-            src={`/svg/${tech}.svg`}
-            alt={tech}
-            class="h-7 w-auto object-contain  transition-transform group-hover:scale-110"
-            width="30"
-            height="30"
+            src={tech.icon}
+            alt={tech.name}
+            class="h-7 w-7 object-contain transition-transform group-hover:scale-110"
+            width="28"
+            height="28"
             loading="lazy"
           />
-          <span class="text-lg font-medium text-white">
-            {tech.charAt(0).toUpperCase() + tech.slice(1)}
+          <span class="text-base font-semibold text-gray-200 group-hover:text-[#02ffee] transition-colors">
+            {tech.name}
           </span>
         </div>
       ))
@@ -47,12 +47,12 @@ const technologies = [
     }
   }
   .animate-scroll {
-    animation: scroll 60s linear infinite;
+    animation: scroll 40s linear infinite;
   }
 
   @media (min-width: 768px) {
     .animate-scroll {
-      animation-duration: 80s;
+      animation-duration: 50s;
     }
   }
 </style>

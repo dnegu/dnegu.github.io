@@ -2,20 +2,36 @@
 import "../styles/global.css";
 import Navbar from "../components/commons/navbar/navbar.astro";
 import Footer from "../components/commons/footer/footer.astro";
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const {
+  title = "David Neyra | Senior Android Engineer & Mobile Tech Lead",
+  description = "Portafolio profesional de David Neyra - Senior Android Engineer y Mobile Technical Lead con más de 7 años de experiencia en Kotlin Multiplatform, arquitecturas móviles escalables y liderazgo técnico.",
+} = Astro.props;
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
-    <title>Lautaro Rodriguez Collins</title>
+    <meta name="description" content={description} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <title>{title}</title>
   </head>
-  <body class="bg-gray-950 text-white">
+  <body class="bg-gray-950 text-white min-h-screen flex flex-col justify-between">
     <Navbar />
-    <slot />
+    <main class="flex-grow">
+      <slot />
+    </main>
     <Footer />
   </body>
 </html>

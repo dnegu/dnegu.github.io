@@ -1,37 +1,47 @@
-import urbanStyle from "../assets/img-projects/urbanStyle.png";
+import ProductivityApp from "../assets/img-projects/productivityApp.png";
+import TrackerSubscription from "../assets/img-projects/img-substracker.png";
 import imgNote from "../assets/img-projects/note-app.png";
-import ReactEcommerce from "../assets/img-projects/ecommers.jpg";
-import VintageTone from "../assets/img-projects/vintageToneApp.jpg";
+import PortfolioDev from "../assets/img-projects/PortfolioDev.jpg";
 
 export const proyectos = [
-    {
-    titulo: "Vintage Tone",
-    imagen: VintageTone.src,
-    tecnologias: ["Vue.js", "Tailwind", "Express", "MongoDB"],
-    demo: "https://vintage-tone-front-vue.vercel.app",
-    codigo: "https://github.com/Lautaro-R-collins/VintageTone-Front-Vue.git",
-    categoria: "fullstack",
+  {
+    titulo: "Interbank Mobile Banking System",
+    descripcion:
+      "Arquitectura y modernización de módulos de transacciones centrales para la App de Banca Móvil de Interbank, soportando a millones de usuarios con 99.9% crash-free session rate.",
+    imagen: ProductivityApp.src,
+    tecnologias: ["Android", "Kotlin", "Clean Arch", "MVVM", "Room", "SSL Pinning"],
+    demo: "https://www.linkedin.com/in/david-neyra-gutierrez/",
+    codigo: "https://github.com/dnegu",
+    categoria: "mobile",
   },
   {
-    titulo: "React Tiendita",
-    imagen: ReactEcommerce.src,
-    tecnologias: ["React", "Tailwind", "Node.js" ,"Express", "MongoDB", "jwt"],
-    demo: "https://react-e-commerce-three-phi.vercel.app",
-    codigo: "https://github.com/Lautaro-R-collins/React-E-commerce.git",
+    titulo: "KMP & Compose Multiplatform Suite",
+    descripcion:
+      "Arquitectura multiplataforma empresarial (Android / iOS) con más del 75% de código compartido y reducción del 40% en time-to-market.",
+    imagen: TrackerSubscription.src,
+    tecnologias: ["Kotlin Multiplatform", "Compose Multiplatform", "Coroutines", "Koin"],
+    demo: "https://github.com/dnegu",
+    codigo: "https://github.com/dnegu",
+    categoria: "kmp",
   },
   {
-    titulo: "E-commerce Urban Style",
-    descripcion: "Descripción breve del proyecto 1.",
-    imagen: urbanStyle.src,
-    tecnologias: ["React", "Tailwind", "Firebase"],
-    demo: "https://proyecto-final-rodriguez-sable.vercel.app/",
-    codigo: "https://github.com/Lautaro-R-collins/ProyectoFinal-Rodriguez.git",
+    titulo: "Webcontrol Industrial Offline Sync",
+    descripcion:
+      "Motor de sincronización diferencial para minería a gran escala (Las Bambas, Antapaccay), reduciendo la latencia de sincronización en un 90% (de 30 a <3 min).",
+    imagen: imgNote.src,
+    tecnologias: ["Android", "Room", "Coroutines", ".NET Core", "RFID/Biometrics"],
+    demo: "https://github.com/dnegu",
+    codigo: "https://github.com/dnegu",
+    categoria: "mobile",
   },
   {
-    titulo: "API REST para Ecommerce",
-    imagen: "https://miro.medium.com/1*47S4iWVwTicFkFL4-Z4uAA.png",
-    tecnologias: ["Express", "Node.js", "MongoDB", "Mongoose"],
-    demo: "https://react-e-commerce-three-phi.vercel.app/",
-    codigo: "https://github.com/Lautaro-R-collins/ApiRest-Ecommerce.git",
+    titulo: "BCP & Scotiabank Modular Architecture",
+    descripcion:
+      "Modularización de arquitectura monolítica en feature modules y diseño de librería de componentes reutilizables con Jetpack Compose.",
+    imagen: PortfolioDev.src,
+    tecnologias: ["Android", "Jetpack Compose", "Modularization", "Clean Arch"],
+    demo: "https://github.com/dnegu",
+    codigo: "https://github.com/dnegu",
+    categoria: "arquitectura",
   },
 ];
